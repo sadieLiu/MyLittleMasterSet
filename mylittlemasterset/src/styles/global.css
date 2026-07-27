@@ -1,0 +1,62 @@
+/* _,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,_
+
+    1.) Color Constants and Background Styling
+
+_,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,_*/
+:root {
+    /* branding colors */
+    --primary-color: #c9a0dc ;
+    --secondary-color: #ededf9;
+    --primary-text-color: #32174d;
+    --secondary-text-color: #602f6b;
+}
+
+
+body,
+.gradient-background {
+ background: radial-gradient(ellipse at center, var(--primary-color) 0%, var(--secondary-color) 100%);
+ background-attachment: fixed;
+}
+
+/* _,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,_
+
+    2.) Container Styling an Fonts
+
+_,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,_*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Typewcond', sans-serif;
+}
+
+@font-face{
+    font-family: 'Hatolie';
+    src:url(..\assets\Hatolie.ttf);
+}
+
+@font-face {
+    font-family: 'Typewcond';
+    src: url(../assets/typewcond_regular.otf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Typewcond';
+    src: url(../assets/typewcond_demi.otf);
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Typewcond';
+    src: url(../assets/typewcond_bold.otf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+
