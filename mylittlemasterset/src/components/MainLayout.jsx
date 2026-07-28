@@ -79,7 +79,7 @@ export default function MainLayout({ children }) {
             </div>
 
             <div>
-                <a>email@example.com</a>
+                <a href="https://www.flaticon.com/free-icons/star" title="star icons">Star icons created by Magnific - Flaticon</a>
             </div>
         </footer>
         </>
