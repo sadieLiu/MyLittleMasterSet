@@ -4,7 +4,7 @@
 
 This is a website for browsing MLP KAYOU cards and adding favorites to a list. Search the
 catalog by set, character, or rarity and share a favorites list with others with a link or QR code. This is great for curating cards that you want to collect and add to your collection in real life.
-
+Deployment link: https://mylittlemasterset.web.app/ 
 ## Features
 
 * Email/password and Google sign-in
